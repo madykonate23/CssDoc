@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define warm color palette */
+:root {
+    --primary-bg-color: #FFD700; /* Warm yellow background color */
+    --primary-text-color: #333; /* Dark text color */
+    --accent-color: #FF6347; /* Coral accent color */
+}
+
+/* Apply the color palette to the website */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--accent-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Add an underline effect on hover */
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-container {
+    background-color: var(--accent-color);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: right;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.about-container h2 {
+    font-size: 24px;
+    color: #fff; /* White text color for the heading */
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #fff; /* White text color for the content */
+}
+
+main section {
+    padding: 40px 0; /* Add spacing between sections */
+    text-align: center;
+}
+
+main section h2 {
+    font-size: 28px;
+    margin-bottom: 20px; /* Add space below headings */
+}
+
+main section p {
+    font-size: 18px;
+}
+
+main iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--accent-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
